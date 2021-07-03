@@ -3,7 +3,12 @@
 
 
 a {
-        color: #c19a6b;
+        color: #02075d;
+        text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
 }
 
 body {
@@ -13,7 +18,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
         color: #c19a6b;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
 }
 
 h1 {
@@ -26,7 +31,7 @@ h1.site-title {
 }
 
 p {
-        font-family: Roboto, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 14px;
 }
 
