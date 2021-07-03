@@ -1,10 +1,43 @@
 @import "normalize.css";
+@import "fonts.css";
 
+
+a {
+        color: #c19a6b;
+}
+
+body {
+        background-color: #c2b280;
+        color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+        color: #c19a6b;
+        font-family: 'Open Sans', sans-serif;
+}
 
 h1 {
+        font-size: 40px;
+}
+
+h1.site-title {
+        color: #fff;
         font-size: 60px;
 }
 
 p {
+        font-family: Roboto, sans-serif;
         font-size: 14px;
 }
+
+
+/* Main layout positioning CSS */
+.container-navigation, .header-frame {
+        width: 100%;
+}
+
+.container-content {
+        margin: auto;
+        width: 80%;
+}
+
