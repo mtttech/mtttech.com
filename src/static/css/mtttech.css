@@ -16,9 +16,10 @@ body {
         color: #333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, li {
         color: #c19a6b;
         font-family: 'Noto Sans JP', sans-serif;
+        text-shadow: 1px 1px 2px #333;
 }
 
 h1 {
@@ -28,9 +29,29 @@ h1 {
 h1.site-title {
         color: #fff;
         font-size: 60px;
+        text-align: center;
 }
 
-p {
+ol, ul {
+}
+
+.navigation-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+}
+
+.navigation-list li {
+        display: inline;
+}
+
+.navigation-list li a {
+        font-size: 20px;
+        padding: 5em 2em;
+}
+
+p, td, th {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
 }
@@ -41,8 +62,18 @@ p {
         width: 100%;
 }
 
-.container-content {
+.container-content, .navigation-container {
         margin: auto;
         width: 80%;
+}
+
+.navigation-container {
+        height: 50px;
+}
+
+
+/* Main layout shading CSS */
+.container-navigation {
+        background-color: #f0f0f0;
 }
 
