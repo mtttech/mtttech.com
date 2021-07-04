@@ -12,18 +12,23 @@ a:hover {
 }
 
 body {
-        background-color: #c2b280;
+        /* background-color: #c2b280; */
+        /* background-color: #efddaa; */
+        background-color: #dfce9b;
         color: #333;
 }
 
 h1, h2, h3, h4, h5, h6, li {
         color: #c19a6b;
         font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
         text-shadow: 1px 1px 2px #333;
 }
 
 h1 {
-        font-size: 40px;
+        font-size: 30px;
 }
 
 h1.site-title {
@@ -39,7 +44,7 @@ ol, ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        padding-top: 10px;
+        padding-top: 12px;
 }
 
 .navigation-list li {
@@ -47,8 +52,13 @@ ol, ul {
 }
 
 .navigation-list li a {
-        font-size: 20px;
+        color: #333;
+        font-size: 18px;
         padding: 5em 2em;
+}
+
+.navigation-list li a:hover {
+        text-decoration: none;
 }
 
 p, td, th {
@@ -56,15 +66,24 @@ p, td, th {
         font-size: 14px;
 }
 
+.th-heading {
+        text-align: left;
+}
+
 
 /* Main layout positioning CSS */
-.container-navigation, .header-frame {
+.container-footer, .container-navigation, .header-frame {
         width: 100%;
 }
 
-.container-content, .navigation-container {
+.container-content, .footer-content, .navigation-container {
         margin: auto;
         width: 80%;
+}
+
+.footer-content {
+        height: 300px;
+        text-align: center;
 }
 
 .navigation-container {
