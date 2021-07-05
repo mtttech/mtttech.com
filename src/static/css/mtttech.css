@@ -44,7 +44,7 @@ ol, ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        padding-top: 12px;
+        padding-top: 10px;
 }
 
 .navigation-list li {
@@ -53,7 +53,7 @@ ol, ul {
 
 .navigation-list li a {
         color: #333;
-        font-size: 18px;
+        font-size: 16px;
         padding: 5em 2em;
 }
 
@@ -87,7 +87,7 @@ p, td, th {
 }
 
 .navigation-container {
-        height: 50px;
+        height: 40px;
 }
 
 
