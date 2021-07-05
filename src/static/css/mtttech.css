@@ -82,7 +82,8 @@ p, td, th {
 }
 
 .footer-content {
-        height: 300px;
+        height: 200px;
+        padding-top: 5px;
         text-align: center;
 }
 
@@ -92,6 +93,11 @@ p, td, th {
 
 
 /* Main layout shading CSS */
+.container-footer {
+        background-color: #333;
+        color: #fff;
+}
+
 .container-navigation {
         background-color: #f0f0f0;
 }
