@@ -72,7 +72,7 @@ p, td, th {
 
 
 /* Main layout positioning CSS */
-.container-footer, .container-navigation, .header-frame {
+.container-header, .container-footer, .container-navigation, .header-frame {
         width: 100%;
 }
 
@@ -93,6 +93,13 @@ p, td, th {
 
 
 /* Main layout shading CSS */
+.container-header {
+        background: url('/home/mtt/GitHub/mtttech/src/images/site/splash.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 434px;
+}
+
 .container-footer {
         background-color: #333;
         color: #fff;
