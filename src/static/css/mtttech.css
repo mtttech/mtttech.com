@@ -31,23 +31,42 @@ h1 {
         font-size: 30px;
 }
 
-h1.site-title {
+.site-title {
         color: #fff;
-        font-size: 60px;
-        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        float: left;
+        font-size: 30px;
+        margin-left: 13px;
+        margin-top: 1px;
+        text-shadow: 1px 1px 2px #333;
 }
 
 ol, ul {
+        padding-left: 0;
 }
 
+p, td, th {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+}
+
+nav {
+        background-color: #f0f0f0;
+        height: 40px;
+}
+
+
+/* Unordered list styling */
 .navigation-list {
+        float: right;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding-left: 0;
+        padding-right: 10px;
         padding-top: 10px;
 }
 
-.navigation-list li {
+.navigation-list-item {
         display: inline;
 }
 
@@ -59,11 +78,6 @@ ol, ul {
 
 .navigation-list li a:hover {
         text-decoration: none;
-}
-
-p, td, th {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
 }
 
 .th-heading {
@@ -87,10 +101,6 @@ p, td, th {
         text-align: center;
 }
 
-.navigation-container {
-        height: 40px;
-}
-
 
 /* Main layout shading CSS */
 .container-header {
@@ -104,8 +114,3 @@ p, td, th {
         background-color: #333;
         color: #fff;
 }
-
-.container-navigation {
-        background-color: #f0f0f0;
-}
-
