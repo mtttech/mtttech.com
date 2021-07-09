@@ -28,17 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-        font-size: 30px;
-}
-
-.site-title {
-        color: #fff;
-        font-family: 'Noto Sans JP', sans-serif;
-        float: left;
-        font-size: 30px;
-        margin-left: 13px;
-        margin-top: 1px;
-        text-shadow: 1px 1px 2px #333;
+        font-size: 21px;
 }
 
 ol, ul {
@@ -52,33 +42,60 @@ p, td, th {
 
 nav {
         background-color: #f0f0f0;
-        height: 40px;
+        border-bottom: 1px solid #808080;
+        height: 50px;
 }
 
 
 /* Unordered list styling */
-.navigation-list {
-        float: right;
+.navigation-icons, .navigation-menu {
         list-style-type: none;
         margin: 0;
-        padding-left: 0;
-        padding-right: 10px;
-        padding-top: 10px;
 }
 
-.navigation-list-item {
+.navigation-menu {
+        float: left;
+        padding-left: 0;
+        padding-right: 10px;
+        padding-top: 12px;
+}
+
+.navigation-icons {
+        float: right;
+        padding: 0;
+        padding-top: 8px;
+}
+
+.navigation-icon-item, .navigation-menu-item, .navigation-menu-logo {
         display: inline;
 }
 
-.navigation-list li a {
-        color: #333;
-        font-size: 16px;
-        padding: 5em 2em;
+.navigation-icon-item {
+        padding: 3px 10px;
 }
 
-.navigation-list li a:hover {
+.navigation-menu-item a {
+        color: #333;
+        font-size: 14px;
+        padding: 3em 1em 0 1em;
+}
+
+.navigation-menu-item a:hover {
         text-decoration: none;
 }
+
+.navigation-menu-logo {
+        color: #fff;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 20px;
+        padding: 3em 20px 0 15px;
+        text-shadow: 1px 1px 2px #333;
+}
+
+.navigation-menu-logo :hover {
+        text-decoration: none;
+}
+
 
 .th-heading {
         text-align: left;
