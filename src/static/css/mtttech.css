@@ -40,12 +40,6 @@ p, td, th {
         font-size: 14px;
 }
 
-nav {
-        background-color: #f0f0f0;
-        border-bottom: 1px solid #808080;
-        height: 50px;
-}
-
 
 /* Unordered list styling */
 .navigation-icons, .navigation-menu {
@@ -84,16 +78,17 @@ nav {
         text-decoration: none;
 }
 
-.navigation-menu-logo {
+.navigation-menu-logo a {
         color: #fff;
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 20px;
-        padding: 3em 20px 0 15px;
+        padding: 3em 20px 0 20px;
         text-shadow: 1px 1px 2px #333;
 }
 
-.navigation-menu-logo :hover {
+.navigation-menu-logo a:hover {
         text-decoration: none;
+        text-shadow: 2px 2px 3px #333;
 }
 
 
@@ -110,6 +105,20 @@ nav {
 .container-content, .footer-content, .navigation-container {
         margin: auto;
         width: 80%;
+}
+
+.container-content {
+        margin-top: 60px;
+}
+
+.floating-header {
+        background-color: #f0f0f0;
+        border-bottom: 1px solid #808080;
+        height: 50px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
 }
 
 .footer-content {
