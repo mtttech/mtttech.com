@@ -40,6 +40,10 @@ p, td, th {
         font-size: 14px;
 }
 
+table {
+        margin-bottom: 15px;
+}
+
 
 /* Unordered list styling */
 .navigation-icons, .navigation-menu {
