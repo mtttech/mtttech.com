@@ -9,11 +9,19 @@
                 <meta name="og:description" content="Just another tech lover's website.">
                 <meta name="og:url" content="http://www.mtttech.com">
                 <script src="static/js/jquery.js"></script>
+                <script>
+                        $(document).ready( function() {
+                                $('.container-content').css('display', 'none')
+                                $('.container-content').fadeIn(2000)
+                        })
+                </script>
                 <link rel="shortcut icon" href="images/favicon/favicon.png">
                 <link rel="stylesheet" type="text/css" href="static/css/mtttech.css">
         </head>
 
         <body>
+
+        <div class="container">
                 <header>
                         <nav>
                                 <div class="floating-header">
@@ -33,93 +41,92 @@
                 </header>
                 
                 <div class="container-content">
-                        <div>
-                                <h1>About</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec maximus risus, quis aliquet orci. Maecenas mattis eleifend mi ac fringilla. Vivamus vel nibh suscipit, efficitur ligula a, iaculis urna. Vestibulum molestie odio et arcu porttitor lobortis. Curabitur venenatis dui volutpat, tincidunt diam aliquam, dignissim lacus. Praesent non nisl eu ipsum blandit convallis. Suspendisse accumsan nibh ut neque sagittis volutpat. Phasellus finibus libero ac tincidunt luctus. Maecenas fermentum euismod metus, et lobortis justo hendrerit vitae. Fusce venenatis tortor in tellus imperdiet, a luctus turpis commodo. Ut hendrerit massa at velit mollis, in euismod enim convallis. Aliquam iaculis vestibulum feugiat. Aliquam erat volutpat. Aliquam at lacinia ex. Ut ultricies venenatis pulvinar. Nullam et magna ex.</p>
+                        <h1>About</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec maximus risus, quis aliquet orci. Maecenas mattis eleifend mi ac fringilla. Vivamus vel nibh suscipit, efficitur ligula a, iaculis urna. Vestibulum molestie odio et arcu porttitor lobortis. Curabitur venenatis dui volutpat, tincidunt diam aliquam, dignissim lacus. Praesent non nisl eu ipsum blandit convallis. Suspendisse accumsan nibh ut neque sagittis volutpat. Phasellus finibus libero ac tincidunt luctus. Maecenas fermentum euismod metus, et lobortis justo hendrerit vitae. Fusce venenatis tortor in tellus imperdiet, a luctus turpis commodo. Ut hendrerit massa at velit mollis, in euismod enim convallis. Aliquam iaculis vestibulum feugiat. Aliquam erat volutpat. Aliquam at lacinia ex. Ut ultricies venenatis pulvinar. Nullam et magna ex.</p>
 
-                                <p>Pellentesque non dictum elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam lorem purus, euismod euismod gravida at, eleifend sed arcu. Nam condimentum scelerisque mauris dictum tristique. Nam non metus in erat pellentesque volutpat sed et arcu. Maecenas elementum diam id eleifend facilisis. In non magna sed neque ultricies venenatis.</p>
+                        <p>Pellentesque non dictum elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam lorem purus, euismod euismod gravida at, eleifend sed arcu. Nam condimentum scelerisque mauris dictum tristique. Nam non metus in erat pellentesque volutpat sed et arcu. Maecenas elementum diam id eleifend facilisis. In non magna sed neque ultricies venenatis.</p>
 
-                                <h1>Connect</h1>
+                        <h1>Connect</h1>
 
-                                <p>Suspendisse potenti. Donec ut elit diam. Vestibulum ut odio non ipsum interdum placerat. Proin et feugiat ex. Cras rutrum, dolor et lacinia vehicula, nibh arcu vehicula ante, ornare tempor magna turpis nec arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel egestas purus. Nam eleifend, nulla eget porta mollis, risus dolor sollicitudin sem, ut suscipit odio erat sit amet arcu. Curabitur rutrum tortor diam, vitae pretium eros posuere eu. Maecenas condimentum lacus vitae suscipit finibus. Donec egestas aliquet mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                
-                                <h1>Hardware</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec maximus risus, quis aliquet orci. Maecenas mattis eleifend mi ac fringilla. Vivamus vel nibh suscipit, efficitur ligula a, iaculis urna. Vestibulum molestie odio et arcu porttitor lobortis. Curabitur venenatis dui volutpat, tincidunt diam aliquam, dignissim lacus. Praesent non nisl eu ipsum blandit convallis. Suspendisse accumsan nibh ut neque sagittis volutpat. Phasellus finibus libero ac tincidunt luctus. Maecenas fermentum euismod metus, et lobortis justo hendrerit vitae. Fusce venenatis tortor in tellus imperdiet, a luctus turpis commodo. Ut hendrerit massa at velit mollis, in euismod enim convallis. Aliquam iaculis vestibulum feugiat. Aliquam erat volutpat. Aliquam at lacinia ex. Ut ultricies venenatis pulvinar. Nullam et magna ex.</p>
-                                
-                                <table>
-                                        <tr>
-                                                <th class="th-heading">Case:</th>
-                                                <td>Fractal Design Define Mini C TG Black</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Motherboard:</th>
-                                                <td>Gigabyte B550M AORUS PRO-P</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Processor:</th>
-                                                <td>AMD Ryzen 5 3600X, 3.8GHz</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Memory:</th>
-                                                <td>HyperX Fury 32GB, DDR4, 2666MHz (8GB x4)</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Operating System:</th>
-                                                <td>Windows 10 Home</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Graphics:</th>
-                                                <td>EVGA Nvidia GeForce RTX 2060</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Storage 1:</th>
-                                                <td>Western Digital WD Black SN750, NVMe SSD, 500 GB</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Storage 2:</th>
-                                                <td>Seagate BarraCuda, HDD, 2TB</td>
-                                        </tr>
-                                </table>
+                        <p>Suspendisse potenti. Donec ut elit diam. Vestibulum ut odio non ipsum interdum placerat. Proin et feugiat ex. Cras rutrum, dolor et lacinia vehicula, nibh arcu vehicula ante, ornare tempor magna turpis nec arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel egestas purus. Nam eleifend, nulla eget porta mollis, risus dolor sollicitudin sem, ut suscipit odio erat sit amet arcu. Curabitur rutrum tortor diam, vitae pretium eros posuere eu. Maecenas condimentum lacus vitae suscipit finibus. Donec egestas aliquet mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        
+                        <h1>Hardware</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec maximus risus, quis aliquet orci. Maecenas mattis eleifend mi ac fringilla. Vivamus vel nibh suscipit, efficitur ligula a, iaculis urna. Vestibulum molestie odio et arcu porttitor lobortis. Curabitur venenatis dui volutpat, tincidunt diam aliquam, dignissim lacus. Praesent non nisl eu ipsum blandit convallis. Suspendisse accumsan nibh ut neque sagittis volutpat. Phasellus finibus libero ac tincidunt luctus. Maecenas fermentum euismod metus, et lobortis justo hendrerit vitae. Fusce venenatis tortor in tellus imperdiet, a luctus turpis commodo. Ut hendrerit massa at velit mollis, in euismod enim convallis. Aliquam iaculis vestibulum feugiat. Aliquam erat volutpat. Aliquam at lacinia ex. Ut ultricies venenatis pulvinar. Nullam et magna ex.</p>
+                        
+                        <table>
+                                <tr>
+                                        <th class="th-heading">Case:</th>
+                                        <td>Fractal Design Define Mini C TG Black</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Motherboard:</th>
+                                        <td>Gigabyte B550M AORUS PRO-P</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Processor:</th>
+                                        <td>AMD Ryzen 5 3600X, 3.8GHz</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Memory:</th>
+                                        <td>HyperX Fury 32GB, DDR4, 2666MHz (8GB x4)</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Operating System:</th>
+                                        <td>Windows 10 Home</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Graphics:</th>
+                                        <td>EVGA Nvidia GeForce RTX 2060</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Storage 1:</th>
+                                        <td>Western Digital WD Black SN750, NVMe SSD, 500 GB</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Storage 2:</th>
+                                        <td>Seagate BarraCuda, HDD, 2TB</td>
+                                </tr>
+                        </table>
 
-                                <table>
-                                        <tr>
-                                                <th class="th-heading">Case:</th>
-                                                <td>Corsair 4000D Tempered Glass Mid-Tower ATX Case Black</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Motherboard:</th>
-                                                <td>MSI Z590 Pro Wifi</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Processor:</th>
-                                                <td>Intel Core i5-10400, 2.9GHz</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Memory:</th>
-                                                <td>Corsair Vengeance LPX 16GB, DDR4, 2666MHz (4GB x4)</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Operating System:</th>
-                                                <td>Windows 10 Home</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Graphics:</th>
-                                                <td>MSI Nvidia GeForce GTX 1050 Ti</td>
-                                        </tr>
-                                        <tr>
-                                                <th class="th-heading">Storage:</th>
-                                                <td>Samsung 860 EVO Series, SSD, 1 TB</td>
-                                        </tr>
-                                </table>
-                        </div>
+                        <table>
+                                <tr>
+                                        <th class="th-heading">Case:</th>
+                                        <td>Corsair 4000D Tempered Glass Mid-Tower ATX Case Black</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Motherboard:</th>
+                                        <td>MSI Z590 Pro Wifi</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Processor:</th>
+                                        <td>Intel Core i5-10400, 2.9GHz</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Memory:</th>
+                                        <td>Corsair Vengeance LPX 16GB, DDR4, 2666MHz (4GB x4)</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Operating System:</th>
+                                        <td>Windows 10 Home</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Graphics:</th>
+                                        <td>MSI Nvidia GeForce GTX 1050 Ti</td>
+                                </tr>
+                                <tr>
+                                        <th class="th-heading">Storage:</th>
+                                        <td>Samsung 860 EVO Series, SSD, 1 TB</td>
+                                </tr>
+                        </table>
                 </div>
                 
-                <div class="container-footer">
-                	<div class="footer-content">
-	                        <p><a href="#about">About</a> | <a href="#connect">Connect</a> | <a href="#hardware">Hardware</a></p>
-        	                <p>&copy;2021 MTT Tech. <a href="mailto:mtaylor3121[at]gmail.com">Marcus T. Taylor</a>. All rights reserved.</p>
+                <footer>
+                	<div class="floating-footer">
+	                        <p class="caption"><a href="#about">About</a> | <a href="#connect">Connect</a> | <a href="#hardware">Hardware</a></p>
+        	                <p class="caption">&copy;2021 MTT Tech. <a href="mailto:mtaylor3121[at]gmail.com">Marcus T. Taylor</a>. All rights reserved.</p>
 			</div>
-                </div>
+                </footer>
+        </div>
 
         </body>
 </html>

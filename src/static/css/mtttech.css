@@ -3,7 +3,7 @@
 
 
 a {
-        color: #02075d;
+        color: #c19a6b;
         text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ table {
 }
 
 
-/* Unordered list styling */
+/* Unordered list navigation CSS styling */
 .navigation-icons, .navigation-menu {
         list-style-type: none;
         margin: 0;
@@ -96,23 +96,25 @@ table {
 }
 
 
+/* Main table CSS styling */
 .th-heading {
         text-align: left;
 }
 
 
 /* Main layout positioning CSS */
-.container-header, .container-footer, .container-navigation, .header-frame {
+.container, .header-frame {
         width: 100%;
 }
 
-.container-content, .footer-content, .navigation-container {
-        margin: auto;
-        width: 80%;
+.container {
+        height: 100%;
 }
 
 .container-content {
+        margin: auto;
         margin-top: 60px;
+        width: 80%;
 }
 
 .floating-header {
@@ -125,10 +127,12 @@ table {
         width: 100%;
 }
 
-.footer-content {
-        height: 200px;
+.floating-footer {
+        background-color: #333;
+        border-top: 1px solid #808080;
+        bottom: 0;
+        height: 70px;
         padding-top: 5px;
-        text-align: center;
 }
 
 
@@ -140,7 +144,13 @@ table {
         height: 434px;
 }
 
-.container-footer {
-        background-color: #333;
+.floating-footer {
         color: #fff;
+}
+
+
+/* Main text CSS */
+.caption {
+        font-size: 11px;
+        text-align: center;
 }
