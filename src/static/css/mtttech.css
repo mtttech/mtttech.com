@@ -137,18 +137,23 @@ textarea {
 
 .container-content {
         margin: auto;
+        margin-bottom: 60px;
         margin-top: 60px;
         width: 80%;
+}
+
+.floating-header, .floating-footer {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+
 }
 
 .floating-header {
         background-color: #f0f0f0;
         border-bottom: 1px solid #808080;
         height: 50px;
-        overflow: hidden;
-        position: fixed;
         top: 0;
-        width: 100%;
 }
 
 .floating-footer {
