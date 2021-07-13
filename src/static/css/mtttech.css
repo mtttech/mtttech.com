@@ -31,17 +31,41 @@ h1 {
         font-size: 21px;
 }
 
-ol, ul {
-        padding-left: 0;
-}
-
-p, td, th {
+input, legend, p, td, textarea, th {
         font-family: 'Open Sans', sans-serif;
         font-size: 13px;
 }
 
+input, textarea {
+        padding: 6px 8px
+}
+
+input {
+        width: 300px;
+}
+
+input[type=submit] {
+        font-weight: bold;
+        width: 100px
+}
+
+legend {
+        font-weight: bold;
+        margin: 3px 4px;
+}
+
+ol, ul {
+        padding-left: 0;
+}
+
 table {
         margin-bottom: 15px;
+}
+
+textarea {
+        height: 200px;
+        resize: none;
+        width: 300px;
 }
 
 
