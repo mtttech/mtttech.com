@@ -166,7 +166,7 @@ textarea {
 
 /* Main layout shading CSS */
 .container-header {
-        background: url('/home/mtt/GitHub/mtttech/src/images/site/splash.png');
+        background: url('http://www.mtttech.com/images/site/splash.png');
         background-repeat: no-repeat;
         background-size: cover;
         border-bottom: 2px solid #000;
