@@ -2,7 +2,7 @@
 <html lang="en">
         <head>
                 <meta charset="utf-8">
-                <title>Marcus Taylor Tech</title>
+                <title>MTT TECH :: Welcome</title>
                 <meta name="author" content="Marcus T. Taylor">
                 <meta name="description" content="Just another tech lover's website.">
                 <meta name="og:title" content="Marcus T Taylor Tech">
@@ -13,6 +13,12 @@
                         $(document).ready( function() {
                                 $('.container-content').css('display', 'none')
                                 $('.container-content').fadeIn(2000)
+
+                                // Hide the navigation menu items for now...
+                                let nav_elements = document.getElementsByClassName("navigation-menu-item")
+                                for (i = 0; i < nav_elements.length; i++) {
+                                        nav_elements[i].style.display = "none"
+                                }
                         })
                 </script>
                 <link rel="shortcut icon" href="images/favicon/favicon.png">
@@ -27,16 +33,16 @@
                                 <div class="floating-header">
                                         <ul class="navigation-menu"">
                                                 <li class="navigation-menu-logo"><a href="/">MTTTECH.COM</a></li>
-                                                <li class="navigation-menu-item" style="display: none;"><a href="#about">About</a></li>
-                                                <li class="navigation-menu-item" style="display: none;"><a href="#blog">Blog</a></li>
-                                                <li class="navigation-menu-item" style="display: none;"><a href="#connect">Connect</a></li>
-                                                <li class="navigation-menu-item" style="display: none;"><a href="#hardware">Hardware</a></li>
+                                                <li class="navigation-menu-item"><a href="#about">About</a></li>
+                                                <li class="navigation-menu-item"><a href="#blog">Blog</a></li>
+                                                <li class="navigation-menu-item"><a href="#connect">Connect</a></li>
+                                                <li class="navigation-menu-item"><a href="#hardware">Hardware</a></li>
                                         </ul>
                                         <ul class="navigation-icons">
-                                                <li class="navigation-icon-item"><a href="http://facebook.com/mtaylor37"><img src="images/icons/flogo-Hex-RGB-MedGrey-32.png"></a></li>
-                                                <li class="navigation-icon-item"><a href="http://github.com/mtttech"><img src="images/icons/GitHub-Mark-32px.png"></a></li>
-                                                <li class="navigation-icon-item"><a href="http://instagram.com/mtaylor6879"><img src="images/icons/glyph-logo_May2016-32x32.png"></a></li>
-                                                <li class="navigation-icon-item"><a href="https://www.linkedin.com/in/mtaylor7945/"><img src="images/icons/icons8-linkedin-32.png"></a></li>
+                                                <li class="navigation-icon-item"><a href="http://facebook.com/mtaylor37"><img src="images/icons/flogo-Hex-RGB-MedGrey-32.png" height="32" width="32"></a></li>
+                                                <li class="navigation-icon-item"><a href="http://github.com/mtttech"><img src="images/icons/GitHub-Mark-32px.png" height="32" width="32"></a></li>
+                                                <li class="navigation-icon-item"><a href="http://instagram.com/mtaylor6879"><img src="images/icons/glyph-logo_May2016-32x32.png" height="32" width="32"></a></li>
+                                                <li class="navigation-icon-item"><a href="https://www.linkedin.com/in/mtaylor7945/"><img src="images/icons/icons8-linkedin-32.png" height="32" width="32"></a></li>
                                         </ul>
                                 </div>
                         </nav>
@@ -165,12 +171,9 @@
                 </div>
 
                 <footer>
-                  <div class="floating-footer">
-                          <!--
-	                        <p class="caption"><a href="#about">About</a> | <a href="#blog">Blog</a> | <a href="#connect">Connect</a> | <a href="#hardware">Hardware</a></p>
-                          -->
-        	                <p class="caption">&copy;2021 MTT Tech. All rights reserved.</p>
-			            </div>
+                        <div class="floating-footer">
+        	                <p class="caption">&copy;2021 Marcus T. Taylor Tech. All rights reserved.</p>
+		        </div>
                 </footer>
         </div>
 

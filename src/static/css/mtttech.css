@@ -109,16 +109,18 @@ textarea {
 }
 
 .navigation-menu-logo a {
-        color: #fff;
+        color: #808080;
         font-family: 'Noto Sans JP', sans-serif;
-        font-size: 20px;
+        font-size: 22px;
+        font-weight: bold;
         padding: 3em 20px 0 20px;
-        text-shadow: 1px 1px 2px #333;
+        text-shadow: 1px 2px 3px #000;
 }
 
 .navigation-menu-logo a:hover {
+        color: #000;
         text-decoration: none;
-        text-shadow: 2px 2px 3px #333;
+        text-shadow: 1px 2px 3px #808080;
 }
 
 
@@ -153,14 +155,14 @@ textarea {
 
 .floating-header {
         background-color: #f0f0f0;
-        border-bottom: 1px solid #808080;
+        border-bottom: 1px solid #333;
         height: 50px;
         top: 0;
 }
 
 .floating-footer {
-        background-color: #333;
-        border-top: 1px solid #808080;
+        background-color: #000;
+        border-top: 1px solid #444;
         bottom: 0;
         height: 50px;
 }
