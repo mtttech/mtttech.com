@@ -3,8 +3,8 @@
 
 
 a {
+        font-weight: bold;
         color: #c19a6b;
-        text-decoration: none;
 }
 
 a:hover {
@@ -12,33 +12,47 @@ a:hover {
 }
 
 body {
-        /* background-color: #c2b280; */
-        /* background-color: #efddaa; */
-        background-color: #dfce9b;
-        background-image: url('../../images/site/cover.png');
+        background-color: #eee;
         background-size: cover;
         color: #333;
 }
 
 h1, h2, h3, h4, h5, h6, li {
-        color: #c19a6b;
+        color: #333;
         font-family: 'Noto Sans JP', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-        text-shadow: 1px 1px 2px #333;
+        font-style: italic;
+        margin: 0;
+        text-shadow: 1px 2px 3px #333;
 }
 
 h1 {
-        font-size: 21px;
+        font-size: 42px;
 }
 
-input, legend, p, td, textarea, th {
+h2 {
+        font-size: 34px;
+}
+
+h3 {
+        font-size: 26px;
+}
+
+input, label, p, td, textarea, th {
         font-family: 'Open Sans', sans-serif;
-        font-size: 13px;
+}
+
+input, label, p, td, th {
+        font-size: 16px;
 }
 
 input, textarea {
+        border-radius: 10px;
+        border: 1px solid #808080;
+        font-size: 18px;
+        font-style: italic;
         padding: 6px 8px
 }
 
@@ -46,18 +60,25 @@ input {
         width: 300px;
 }
 
-input[type=submit] {
+input[type="reset"], input[type=submit] {
         font-weight: bold;
         width: 100px
 }
 
-legend {
+label {
+        display: block;
         font-weight: bold;
         margin: 3px 4px;
+        text-align: left;
+        width: 100%;
 }
 
 ol, ul {
         padding-left: 0;
+}
+
+p {
+        margin: .8em .4em;
 }
 
 table {
@@ -67,7 +88,7 @@ table {
 textarea {
         height: 200px;
         resize: none;
-        width: 300px;
+        width: 500px;
 }
 
 
@@ -98,14 +119,23 @@ textarea {
         padding: 3px 10px;
 }
 
+.navigation-menu-item a, .navigation-menu-logo a {
+        text-decoration: none;
+}
+
 .navigation-menu-item a {
         color: #333;
         font-size: 14px;
-        padding: 3em 1em 0 1em;
+        padding: 0 1em;
+        text-shadow: 1px 1px 2px #808080;
 }
 
 .navigation-menu-item a:hover {
-        text-decoration: none;
+        background-color: #999;
+        border-radius: 10px;
+        border: 2px solid #999;
+        color: #eee;
+        text-shadow: 1px 2px 3px #000;
 }
 
 .navigation-menu-logo a {
@@ -113,14 +143,14 @@ textarea {
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 22px;
         font-weight: bold;
-        padding: 3em 20px 0 20px;
-        text-shadow: 1px 2px 3px #000;
+        padding: 3em 30px 0 20px;
+        text-shadow: 2px 3px 4px #000;
 }
 
 .navigation-menu-logo a:hover {
         color: #000;
         text-decoration: none;
-        text-shadow: 1px 2px 3px #808080;
+        text-shadow: 1px 1px 3px #808080;
 }
 
 
@@ -142,8 +172,22 @@ textarea {
 .container-content {
         height: 100%;
         margin: auto;
-        margin-bottom: 60px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         width: 75%;
+}
+
+.section {
+        height: 550px;
+}
+
+.fade-in {
+        opacity: 0;
+        transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+        opacity: 1;
 }
 
 .floating-header, .floating-footer {
@@ -170,17 +214,20 @@ textarea {
 
 /* Main layout shading CSS */
 .container-header {
-  /*
-        background: url('../../images/site/splash.png');*/
-        background-repeat: no-repeat;
-        background-size: cover;
         border-bottom: 1px solid #000;
         height: 275px;
-        margin-top: 50px;
+        margin-top: 60px;
 }
 
 .floating-footer {
         color: #fff;
+}
+
+
+/* Main form CSS */
+.contact-form {
+        margin: auto;
+        width: 60%;
 }
 
 
@@ -191,5 +238,12 @@ textarea {
 }
 
 .required {
-        font-weight: normal;
+        color: #99ccaa;
+        font-weight: bold;
+}
+
+.splash-image {
+        background-image: url('../../images/site/cover.png');
+        background-repeat: no-repeat;
+        background-size: cover;
 }

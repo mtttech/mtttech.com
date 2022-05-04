@@ -4,4 +4,4 @@ $(document).ready( function() {
     nav_elements.forEach(element => {
         element.style.display = "none"
     })
-})
+});
